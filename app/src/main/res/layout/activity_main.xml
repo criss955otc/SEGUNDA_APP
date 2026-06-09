@@ -23,15 +23,15 @@
 
         <ImageView
             android:id="@+id/imgLogo"
-            android:layout_width="220dp"
-            android:layout_height="220dp"
+            android:layout_width="177dp"
+            android:layout_height="191dp"
             android:src="@drawable/ecobike" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ecobike_go"
+            android:text="Ecobike_GO"
             android:textColor="#6DFF4B"
             android:textSize="40sp"
             android:textStyle="bold" />
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:letterSpacing="0.15"
-            android:text="la velocidad de la sostenibilidad_urbana"
+            android:text="la velocidad de la sostenibilidad urbana"
             android:textAlignment="center"
             android:textColor="#D0D0D0"
             android:textSize="12sp" />

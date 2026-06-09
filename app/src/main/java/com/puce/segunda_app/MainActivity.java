@@ -14,8 +14,6 @@ import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    private MaterialButton btnLogin;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     return insets;
                 });
 
-        btnLogin = findViewById(R.id.btnLogin);
+        MaterialButton btnLogin = findViewById(R.id.btnLogin);
 
         btnLogin.setOnClickListener(v -> {
 
